@@ -1,0 +1,31 @@
+:root {
+    --boxSize: Calc(100% / 16);
+}
+
+#container {
+    margin: auto;
+    width:50vw;
+    height:50vh;
+    max-width: 50vh;
+    max-height: 50vw;
+    border:3px solid green; 
+    display: flex;
+    flex-flow:row;
+    flex-wrap: wrap;
+    
+}
+.box {
+     width: var(--boxSize);
+    height: var(--boxSize); 
+    background-color: blue;
+    
+}
+.painted {
+    background-color: green;
+}
+
+#button {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+}
